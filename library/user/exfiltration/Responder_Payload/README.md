@@ -51,7 +51,7 @@ Copies captured loot and logs into the session folder
 Default Configuration:
 Setting	Value
 Interface	wlan0cli
-Responder Path	/root/tools/responder
+Responder Path	/root/payloads/user/exfiltration/Responder_Payload/responder
 Loot Base Dir	/root/loot/responder
 Session Naming	session_YYYYMMDD_HHMMSS
 Responder Flags Used
