@@ -6,7 +6,7 @@ Platform: Hak5 WiFi Pineapple Pager
 
 Overview:
 
-This payload automates the deployment and execution of Responder on a WiFi Pineapple Pager. It handles dependency installation, cloning Responder, structured logging, and provides a built-in kill switch to safely stop Responder and collect captured loot.
+This payload automates the deployment and execution of Responder on a WiFi Pineapple Pager. It handles dependency installation, Check for Responder, structured logging, and provides a built-in kill switch to safely stop Responder and collect captured loot.
 
 The payload is designed for hands-off execution directly from the WiFi Pineapple Pager UI.
 
@@ -14,7 +14,7 @@ Features:
 
 Automatic dependency installation via opkg
 
-Clones Responder if not already present
+Alerts if Responder is not already present
 
 Runs Responder with common attack flags enabled
 
@@ -36,9 +36,7 @@ python3
 
 python3-netifaces
 
-git
-
-Clones Responder from: https://github.com/Hackazillarex/Responder.git (a revised Responder fork to work on the pager.)
+Checks for Responder and if it is not found, it will alert you to place responder in /root/tools 
 
 Clears old Responder logs
 
