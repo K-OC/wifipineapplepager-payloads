@@ -1,5 +1,7 @@
 #!/bin/bash
-# Title: External MediaTek Loader (Auto-Detect
+# Title: External MediaTek Loader (Auto-Detect)
+# Author: Huntz
+# Description: Refer to the README
 # Version: 2.0
 
 set -u
