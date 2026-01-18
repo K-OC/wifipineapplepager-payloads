@@ -15,8 +15,8 @@ At startup, select output mode:
 Create `client_probe_mon.conf` in the same directory as `payload.sh`:
 ```bash
 DISCORD_WEBHOOK="https://discord.com/api/webhooks/YOUR_WEBHOOK_URL"
-WEBHOOK_ENABLED=true      # Overrides menu selection
-SAVE_TO_LOOT=true         # Overrides menu selection
+WEBHOOK_ENABLED=true     
+SAVE_TO_LOOT=true        
 WEBHOOK_BATCH_SIZE=5
 ```
 
